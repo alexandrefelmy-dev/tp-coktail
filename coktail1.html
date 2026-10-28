@@ -1,38 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coktail de la mama</title>
-    <link rel="stylesheet" href="style.css"> 
+    <meta name="description" content="La recette du coktail de la mama, pour tout faire exploser.">
+    <title>Coktail de la mama</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Coktails de la mama</h1>
-  
-        <p>Tu veux un coktail pour tout faire explose? Tu est au bon endroit !!</p>
+    <header class="hud">
+        <a class="logo" href="coktail1.html">💣 Coktails</a>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="coktail1.html" aria-current="page">Molotov</a></li>
+                <li><a href="cokatail2.html">Cacatov</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <img src="./img/Molotovhud.webp" alt="molotov"
-            width="400">
-    <div id="section_recette">
-        <h2>Recette de la mort</h2>
-        <ul>
-            <li class="gras">De l'amour</li>
-            <li class="gras">Des kills</li>
-            <li class="gras">Et du trashtalk</li>
-        </ul>
-    </div>
-    <div id="section_ingredients">
-        <h2>Ingrédients</h2>
-        <ul>
-            <li class="gras taille">De l'explosif</li>
-            <li class="gras taille">Du feu</li>
-            <li class="gras taille">Et BOOM</li>
-        </ul>
-    </div>
-    </body>  
-    <a  href="http://127.0.0.1:5500/cokatail2.html"
-    title="Autre coktail explosif"
-    target="_blank"
-    >Coktail explosif</a>
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Coktails de la mama</h1>
+                <p class="accroche">Tu veux un coktail pour tout faire exploser ? Tu es au bon endroit !!</p>
+            </div>
+            <img class="hero-img" src="./img/Molotovhud.webp" alt="Cocktail molotov" width="400" height="300">
+        </section>
+
+        <div class="cartes">
+            <section id="section_recette" class="carte">
+                <h2>Recette de la mort</h2>
+                <ul>
+                    <li class="gras">De l'amour</li>
+                    <li class="gras">Des kills</li>
+                    <li class="gras">Et du trashtalk</li>
+                </ul>
+            </section>
+
+            <section id="section_ingredients" class="carte">
+                <h2>Ingrédients</h2>
+                <ul>
+                    <li class="gras taille ingredient">
+                        <label><input type="checkbox"><span>De l'explosif</span></label>
+                    </li>
+                    <li class="gras taille ingredient">
+                        <label><input type="checkbox"><span>Du feu</span></label>
+                    </li>
+                    <li class="gras taille ingredient">
+                        <label><input type="checkbox"><span>Et BOOM</span></label>
+                    </li>
+                </ul>
+                <p class="compteur" aria-live="polite"></p>
+            </section>
+        </div>
+
+        <section class="action">
+            <button class="bouton" id="bombe" type="button">Allumer la mèche</button>
+            <p class="statut" id="statut" aria-live="polite"></p>
+        </section>
+
+        <a class="lien-suivant" href="cokatail2.html" title="Autre coktail explosif">Coktail explosif →</a>
+    </main>
+
+    <footer>
+        <p>Coktails de la mama — à consommer avec modération (ou pas)</p>
+    </footer>
+
+    <div class="flash" aria-hidden="true"></div>
+    <p class="toast" aria-hidden="true">Target Successfully Bombed!</p>
 </body>
 </html>
