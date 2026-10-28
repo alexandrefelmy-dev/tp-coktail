@@ -16,3 +16,11 @@
 .txtGrey {
     color: #1431d3;
 }
+
+.gras {
+    font-weight: bold;
+}
+
+.taille {
+    font-size: 200px;
+}
