@@ -1,0 +1,18 @@
+/* body { 
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+}*/
+
+#section_ingredients {
+    background: linear-gradient(to left,rgb(32, 27, 20), #d81d0f);
+}
+#section_recette {
+    background: linear-gradient(to left,rgb(82, 28, 15), #d82215);
+}
+
+.txtBlueGrey {
+    color: #b4b62f;
+}
+
+.txtGrey {
+    color: #1431d3;
+}
