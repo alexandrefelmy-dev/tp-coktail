@@ -9,13 +9,13 @@
     background: linear-gradient(to left,rgb(82, 28, 15), #d82215);
 }
 
-.txtBlueGrey {
+/* .txtBlueGrey {
     color: #b4b62f;
 }
 
 .txtGrey {
     color: #1431d3;
-}
+} */
 
 .gras {
     font-weight: bold;
@@ -23,4 +23,12 @@
 
 .taille {
     font-size: 200px;
+}
+
+ul {
+    color: #b4b62f;
+}
+
+#section_ingredients li:nth-last-child(2) {
+    font-style: italic;
 }
