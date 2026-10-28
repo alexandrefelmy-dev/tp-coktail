@@ -42,6 +42,7 @@ ul {
     text-shadow: 6px 6px 0 #3f3f3f;
 }
 
+
 h1 {
     color: #d8d8d8;
     text-align: center;
@@ -58,10 +59,24 @@ a {
     font-weight: bold;
     font-family: 'Press Start 2P', monospace;
     text-shadow: 6px 6px 0 #3f3f3f;
+
 }
+a:hover {
+    color: red;
+}
+
 
 body {
     background-image: url("img/bomb_cs.webp"); /* image de fond */
     background-size: cover;          /* remplit l'écran */
     background-attachment: fixed;    /* le fond ne bouge pas au scroll */   
+}
+#section_ingredients:hover{
+    background: rgba(152, 175, 23, 0.6);
+}
+
+
+#section_ingredients:hover,
+#section_ingredients:hover ul {
+    color: red;
 }
