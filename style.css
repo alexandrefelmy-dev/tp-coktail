@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /* body { 
     background: linear-gradient(to bottom, #ffecd2, #fcb69f);
 }*/
@@ -31,4 +33,17 @@ ul {
 
 #section_ingredients li:nth-last-child(2) {
     font-style: italic;
+}
+
+#section_ingredients li:nth-child(odd) {
+    text-shadow: 6px 6px 0 #3f3f3f;
+}
+
+h1 {
+    color: #d8d8d8;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 6px 6px 0 #3f3f3f;
 }
