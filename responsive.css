@@ -1,0 +1,9 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1024px */
+@media all and (max-width:1024px) {
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+}
+
+                    
